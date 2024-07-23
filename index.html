@@ -1,13 +1,3 @@
-<!-- HELLO
--
-DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
-Created by Anil Seervi.
--
-GitHub repo: https://github.com/AnilSeervi/DevFolio
-README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
--
-Have fun creating your portfolio on this template!!! -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,58 +7,37 @@ Have fun creating your portfolio on this template!!! -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+    <title>[Franco Mitrushi] | Developer</title>
 
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
-
-    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <meta name="keywords" content="[developer], [francomitrushi], javascript" />
+    <meta name="description" content="[Franco Mitrushi] | Developer" />
     <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+    <meta name="theme-color" content="#44B4DF" />
 
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
-
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
     <meta property="og:url" content="https://devfolio.js.org/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
     <meta property="og:title" content="[Your name here] | Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
     <meta property="og:description" content="Made using DevFolio Template" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
     <meta
       property="og:image"
       content="https://devfolio.js.org/assets/devfolio.png"
     />
 
-    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
     <meta property="twitter:url" content="https://devfolio.js.org" />
-    <!-- Recommended to use the same text used within <title> element -->
     <meta property="twitter:title" content="[Your name here] | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
     <meta
       property="twitter:description"
       content="Made using DevFolio Template"
     />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
     <meta
       property="twitter:image"
       content="https://anilseervi.vercel.app/assets/devfolio.png"
     />
 
-    <!-- link tags -->
     <link rel="preload" as="style" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main.css" />
 
-    <!-- FontAwesome Icons link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -83,39 +52,41 @@ Have fun creating your portfolio on this template!!! -->
       src="./javascript/scrollveal.js"
     ></script>
 
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <style>
+      .no-border {
+        border: none;
+      }
+    </style>
+
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag("js", new Date())
-
-      gtag("config", "UA-122228201-4")
+      gtag("js", new Date());
+      gtag("config", "UA-122228201-4");
     </script>
-    <!-- End of Google Analytics -->
   </head>
   <body>
-    <!-- Hero Section -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
+          Hi, my name is
+          <span class="text-color-main name">Franco Mitrushi</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Junior Developer.
         </h1>
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
         </p>
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
+        <div class="scroll-down no-border"></div>
+      </a>
     </div>
     <!-- /END Hero Section -->
 
@@ -134,20 +105,23 @@ Have fun creating your portfolio on this template!!! -->
             />
           </div>
           <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text"></p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
-            </p>
-            <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              Hi! I am a Junior Front-End Developer who possesses a keen sense
+              of aesthetics and knack for designing smooth user experiences.
+              Along my path to web development, I have obtained a strong base in
+              HTML , CSS, and JavaScript as well as spread out my competence
+              using tools like Tailwind CSS and React. I enjoy challenges and
+              I’m always ready to learn new technologies as well improving on
+              what I already know. Regardless of whether it’s a group assignment
+              or independent work, there is an active approach all the time. As
+              software developer it’s important that my projects are meaningful
+              while at the same time getting better every day.
             </p>
             <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="/assets/certificato.pdf" class="cta-btn cta-btn--resume"
+                >View Credentials</a
+              >
             </span>
           </div>
         </div>
@@ -164,12 +138,11 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">FRFS Exchange</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Insieme al mio team di Develhope, abbiamo creato un app di
+                compravendita Crypto. Abbiamo reso l'interfaccia user friendly e
+                intuitiva,
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -179,7 +152,10 @@ Have fun creating your portfolio on this template!!! -->
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a
+                  href="https://github.com/PalmioTech/FraRaFeSi_Exchange"
+                  target="_blank"
+                  class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
@@ -189,7 +165,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/FRARAFESI.jpg"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -204,12 +180,10 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">PeterFell</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                One of my first projects alongside my team, we recreated the
+                PeterFell website.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -219,7 +193,10 @@ Have fun creating your portfolio on this template!!! -->
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a
+                  href="https://github.com/Shimono13/Peter-Fell-Project"
+                  target="_blank"
+                  class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
@@ -229,7 +206,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/peterfell.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -244,7 +221,7 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Xbox Cloud Gaming</h3>
               <p class="project-wrapper__text-info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
@@ -259,7 +236,10 @@ Have fun creating your portfolio on this template!!! -->
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a
+                  href="https://github.com/irvingose/Progetto-Xbox"
+                  target="_blank"
+                  class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
@@ -269,7 +249,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/xbox.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -291,7 +271,7 @@ Have fun creating your portfolio on this template!!! -->
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <a href="#" class="cta-btn cta-btn--resume">Get in touch with me</a>
         </div>
       </div>
     </section>
@@ -299,13 +279,20 @@ Have fun creating your portfolio on this template!!! -->
 
     <!-- Footer Section -->
     <footer class="footer">
+      <img
+        src="./assets/badge.png"
+        class="img-fluid"
+        alt="Project Image"
+        width="200"
+        height="200"
+      />
       <div class="container">
         <a href="#hero" class="back-to-top" aria-label="go back to top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
           <a
-            href="#!"
+            href="https://x.com/francomitrushi"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="twitter"
@@ -313,7 +300,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-twitter"></i>
           </a>
           <a
-            href="#!"
+            href="https://www.instagram.com/francomitrushii/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="instagram"
@@ -321,7 +308,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-instagram"></i>
           </a>
           <a
-            href="#!"
+            href="https://codepen.io/irvingose"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="codepen"
@@ -329,7 +316,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-codepen"></i>
           </a>
           <a
-            href="#!"
+            href="https://www.linkedin.com/in/franco-mitrushi-1236531a2/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
@@ -337,7 +324,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="#!"
+            href="https://github.com/irvingose/irvingose"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
@@ -360,7 +347,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- END Footer Section -->
 
     <script>
-      document.getElementById("year").textContent = new Date().getFullYear()
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
     <script src="./javascript/vanilla-tilt.min.js"></script>
     <script type="text/javascript" src="./javascript/valtilt.js"></script>

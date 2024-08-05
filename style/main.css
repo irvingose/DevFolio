@@ -393,6 +393,7 @@ section .row span {
 #about .about-wrapper__image img {
   max-width: 350px;
   width: 100%;
+  border: 5px solid whitesmoke;
 }
 @media (max-width: 75em) {
   #about .about-wrapper__image {
